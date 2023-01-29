@@ -17,4 +17,7 @@ public class AccountCreatedOrDeleted
 
     @FindBy(xpath = "//*[@data-qa='continue-button']")
     public WebElement continueButton;
+
+    @FindBy (xpath = "//*[text()='Account Deleted!'] ")
+    public WebElement accountDeletedMsg;
 }
